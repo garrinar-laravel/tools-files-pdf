@@ -1,0 +1,24 @@
+{
+  "name": "garrinar/tools-files-pdf",
+  "description": "Tool for work with pdf files based on mPDF v6.0",
+  "license": "MIT",
+  "type": "library",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Viktor Noyabrodsky",
+      "email": "garrinar@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^5.5"
+  },
+  "autoload": {
+    "classmap": [
+      "libs/Mpdf/mpdf.php"
+    ],
+    "psr-4": {
+      "Garrinar\\Tools\\Files\\": "src"
+    }
+  }
+}
