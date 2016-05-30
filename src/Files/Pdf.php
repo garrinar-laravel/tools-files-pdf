@@ -13,8 +13,8 @@ class Pdf
         $this->renderer = new \mPDF();
         return $this;
     }
-    
-    
+
+
 
     public function setContent($html)
     {
@@ -23,7 +23,8 @@ class Pdf
 
     public function saveToFile($fileName)
     {
-
+        ob_clean();
+        $this->renderer->Output($fileName,'F');
     }
 
     public function get()
