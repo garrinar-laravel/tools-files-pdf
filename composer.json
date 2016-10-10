@@ -10,9 +10,6 @@
       "email": "garrinar@gmail.com"
     }
   ],
-  "require": {
-    "php": "^5.5"
-  },
   "autoload": {
     "classmap": [
       "libs/Mpdf/mpdf.php"
